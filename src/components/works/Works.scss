@@ -1,0 +1,131 @@
+.works {
+  background-color: crimson;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  flex-direction: column;
+
+  .title {
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0px;
+    font-size: 50px;
+    margin-top: 30px;
+    color: white;
+  }
+
+  .arrow {
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+
+    &.left {
+      left: 100px;
+      transform: rotate(180deg);
+    }
+
+    &.right {
+      right: 100px;
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-in-out;
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 800px;
+        height: 100%;
+        background-color: white;
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .left {
+          flex: 5;
+          height: 80%;
+          // background-color: green;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 100%;
+            height: 90%;
+            margin-left: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .imgContainer {
+              width: 40px;
+              height: 40px;
+              border-radius: 50%;
+              background-color: rgb(245, 179, 155);
+              display: flex;
+              align-items: center;
+              justify-content: center;
+
+              img {
+                width: 25px;
+              }
+            }
+            h2 {
+              font-size: 22px;
+              overflow: hidden;
+            }
+            p {
+              font-size: 14px;
+              overflow: hidden;
+            }
+            .links {
+              width: 100%;
+              display: flex;
+
+              a {
+                margin-top: 20px;
+                margin-right: 10px;
+                text-decoration: none;
+                overflow: hidden;
+              }
+              span {
+                font-size: 12px;
+                font-weight: 600;
+                // text-decoration: underline;
+                cursor: pointer;
+              }
+            }
+          }
+        }
+        .right {
+          flex: 6;
+          height: 100%;
+          // background-color: yellow;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img {
+            width: 400px;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
+}
