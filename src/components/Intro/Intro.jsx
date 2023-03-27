@@ -28,8 +28,15 @@ export default function Intro() {
           <h3>
             <span ref={textRef}></span>
           </h3>
+          <p>
+            I am a Full Stack Developer with experience building websites and
+            web applications. I specialize in JavaScript and have experience
+            working with Programming Languages such as Python and JAVA. I also
+            have experience working with Node.js, React.js, MongoDB, Express.js,
+            jQuery, and Mongoose.
+          </p>
         </div>
-        <a href="#portfolio">
+        <a href="#skills">
           <img src="assets/down.png" alt="" />
         </a>
       </div>

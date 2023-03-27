@@ -1,5 +1,11 @@
 import './Topbar.scss';
-import { Person, Mail } from '@material-ui/icons';
+// import { Person, Mail } from '@material-ui/icons';
+import {
+  GithubOutlined,
+  LinkedinOutlined,
+  FilePdfOutlined,
+  MailOutlined,
+} from '@ant-design/icons';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
   return (
@@ -10,12 +16,39 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
             Portfolio
           </a>
           <div className="itemContainer">
-            <Person className="icon" />
-            <span>+915645642525</span>
+            <LinkedinOutlined className="icon" />
+            <a
+              href="https://www.linkedin.com/in/saurabhnegi35/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Linkedin</span>
+            </a>
           </div>
           <div className="itemContainer">
-            <Mail className="icon" />
-            <span>saurabhnegi@gmail.com</span>
+            <GithubOutlined className="icon" />
+            <a
+              href="https://github.com/saurabhnegi35/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Github</span>
+            </a>
+          </div>
+          <div className="itemContainer">
+            <MailOutlined className="icon" />
+            <span>reachsaurabhnegi@gmail.com</span>
+          </div>
+
+          <div className="itemContainer">
+            <FilePdfOutlined className="icon" />
+            <a
+              href="https://github.com/saurabhnegi35/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <span>Resume</span>
+            </a>
           </div>
         </div>
 
