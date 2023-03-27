@@ -1,24 +1,27 @@
 export const frontend = [
   {
     id: 1,
-    title: 'Alarm Clock',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'Music Player',
+    img: '../../assets/music.PNG',
+    link: 'https://saurabhnegi35.github.io/Music_Player/',
   },
   {
     id: 2,
-    title: 'Alarm Clock',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'SuperHero Hunter',
+    img: '../../assets/superhero.PNG',
     link: 'https://marvelwiki.ml/',
   },
   {
     id: 3,
     title: 'Alarm Clock',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    img: '../../assets/alarm.PNG',
+    link: 'https://saurabhnegi35.github.io/Alarm_Clock/',
   },
   {
     id: 4,
-    title: 'Alarm Clock',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'Guess My Number',
+    img: '../../assets/game.PNG',
+    link: 'https://saurabhnegi35.github.io/Guess_My_Number_Game/',
   },
   {
     id: 5,
@@ -30,8 +33,8 @@ export const frontend = [
 export const frontendReact = [
   {
     id: 1,
-    title: 'React',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'Personal PortFolio',
+    img: '../../assets/portfolio.PNG',
   },
   {
     id: 2,
@@ -53,8 +56,9 @@ export const frontendReact = [
 export const backend = [
   {
     id: 1,
-    title: 'React',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'Hospital API',
+    img: '../../assets/hospital.png',
+    link: 'https://hospital-api-68to.onrender.com',
   },
   {
     id: 2,
@@ -66,8 +70,9 @@ export const backend = [
 export const fullstack = [
   {
     id: 1,
-    title: 'Alarm Clock',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'ToDo List',
+    img: '../../assets/todo.PNG',
+    link: 'https://simple-todo-list-retd.onrender.com',
   },
   {
     id: 2,
@@ -84,26 +89,30 @@ export const fullstack = [
 export const projects = [
   {
     id: '1',
-    icon: './assets/globe.png',
+    icon: './assets/hospital-icon.png',
     title: 'Hospital API',
     desc: 'An API for the doctors of a Hospital which has been allocated by the govt for testing and quarantine + well being of COVID-19 patients. Here doctors can register themselves and then register there patients and create report of there patients after checkup. For Live Project use API with Postman',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    img: '../../assets/hospitalapi.png',
     live_link: 'https://hospital-api-68to.onrender.com',
     github_link: 'https://github.com/saurabhnegi35/Hospital_API',
   },
   {
     id: '2',
-    icon: './assets/linkedin.png',
-    title: 'Alarm Clock',
-    desc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    icon: './assets/hero.png',
+    title: 'SuperHero Hunter',
+    desc: 'Superhero Hunter app. Its Built Using ONLY vanilla Javascript, no libraries or frameworks are used for Javascript. This app uses Marvel API for Fetching the Marvel Characters information.',
+    img: './assets/superhero.png',
+    live_link: 'https://marvelwiki.ml/',
+    github_link: 'https://github.com/saurabhnegi35/SuperHero_Hunter',
   },
   {
     id: '3',
     icon: './assets/mobile.png',
-    title: 'Alarm Clock',
-    desc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
-    img: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhyuU3Z5rvUE81IguKZw61_e7VZT9Iapy5jA&usqp=CAU',
+    title: 'To Do List',
+    desc: 'A simple todo list app built using NodeJS and Express, with MongoDB as Backend and ejs for frontend',
+    img: '../../assets/todo.PNG',
+    live_link: 'https://simple-todo-list-retd.onrender.com',
+    github_link: 'https://github.com/saurabhnegi35/Todo_List',
   },
 ];
 
