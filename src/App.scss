@@ -15,6 +15,11 @@
     &::-webkit-scrollbar {
       //for other browsers
       display: none;
+
+      @include mobile {
+        height: 92vh;
+        scroll-snap-type: y mandatory;
+      }
     }
 
     > * {
@@ -24,6 +29,7 @@
 
       @include mobile {
         height: 92vh;
+        scroll-snap-align: start;
       }
     }
   }
